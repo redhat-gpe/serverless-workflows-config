@@ -76,8 +76,8 @@ spec:
     postgresql:
       secretRef:
         name: sonataflow-psql-postgresql
-        userKey: postgres-username
-        passwordKey: postgres-password
+        userKey: database-user
+        passwordKey: database-password
       serviceRef:
         name: sonataflow-psql-postgresql
         port: 5432
